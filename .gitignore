@@ -4,6 +4,10 @@
 *.o
 *.obj
 
+*-build/
+*~
+orocos.log
+
 # Precompiled Headers
 *.gch
 *.pch

@@ -3,9 +3,9 @@
 #import("base_components")
 #--------------------------------------
 #here I put my path to go to “libconsommateur...”. You had to find your own path!
-import("/home/dmia/workspaces/workspaceQtCreator/ORO_COMP_Mav2-buildLocal-build/ORO_COMP_mavlink_bridge/orocos/gnulinux/base_components/libmavlink_bridge-gnulinux.so")
-import("/home/dmia/workspaces/workspaceQtCreator/ORO_COMP_LDC-buildLocal/orocos/gnulinux/LDC/libLDC-gnulinux.so")
-import("/home/dmia/workspaces/workspaceQtCreator/ORO_COMP_LaserJNPK-buildLocal/orocos/gnulinux/LaserJNPK/libLaserJNPK-gnulinux.so")
+import("/home/dmia/work/before/ArcheoKopter/ORO_COMP_mavlink_bridge-build/orocos/gnulinux/mavlink_bridge/libmavlink_bridge-gnulinux.so")
+import("/home/dmia/work/before/ArcheoKopter/ORO_COMP_LDC-build/orocos/gnulinux/LDC/libLDC-gnulinux.so")
+import("/home/dmia/work/before/ArcheoKopter/ORO_COMP_LaserJNPK-build/orocos/gnulinux/LaserJNPK/libLaserJNPK-gnulinux.so")
 require("print")
 
 print.ln("=== Loading components ===")

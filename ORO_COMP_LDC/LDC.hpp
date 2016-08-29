@@ -13,7 +13,7 @@
 #include <px4_aux_data.h>
 //#include <px4_mode.h>
 //#include "home/dmia/workspaces/workspaceQtCreator/ORO_COMP_Mav2-buildLocal/ORO_TYPE_common/px4_mode.h"
-#include "../ORO_COMP_Mav2-buildLocal/ORO_TYPE_common/px4_mode.h"
+#include "../ORO_TYPE_common/px4_mode.h"
 #include <Full_GPS.h>
 
 namespace ISAE{

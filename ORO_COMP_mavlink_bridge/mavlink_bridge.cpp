@@ -24,7 +24,7 @@ and to receive command for the autopilot (in particular for the offboard mode)."
 namespace ISAE {
 mavlink_bridge::mavlink_bridge(const std::string& name) :
 		ISAE::component_base(name),
-        _in_interface("serial:/dev/ttyUSB1:921600"),
+        _in_interface("serial:/dev/ttyUSB0:921600"),
         _out_interface("udp:127.0.0.1:14550"),
 		_static_pressure(0),
 		_dynamic_pressure(0),
